@@ -38,8 +38,8 @@ export const StLoginBox = styled.div`
 
 export const StInputBox = styled.div`
   align-items: center;
-  background-color: rgb(var(--ig-primary-background));
-  border: 1px solid rgb(var(--ig-elevated-separator));
+  /* background-color: rgb(var(--ig-primary-background));
+  border: 1px solid rgb(var(--ig-elevated-separator)); */
   border-radius: 1px;
   box-sizing: border-box;
   display: flex;
@@ -57,37 +57,26 @@ export const StFont = styled.div`
   background: url(${Insta});
   background-size: 100%;
   width: 175px;
-  height: 55px;
+  height: 60px;
   margin-top: 36px;
   margin-bottom: 12px;
 `;
 
-export const StLoginFormBox = styled.div`
+export const StLoginForm = styled.form`
   margin-bottom: 10px;
   max-width: 350px;
   width: 100%;
-`;
-
-export const StLoginForm = styled.form`
-  border: 0;
   display: flex;
   flex-direction: column;
   font: inherit;
   font-size: 100%;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
 `;
 
 export const StLoginInput = styled.input`
-  background: rgb(var(--ig-secondary-background));
   border-radius: 10px;
-  flex: 1 0 auto;
-  margin: 0;
   outline: none;
   overflow: hidden;
   padding: 9px 0 7px 8px;
-  text-overflow: ellipsis;
 `;
 
 export const StLoginFooter = styled.div`
