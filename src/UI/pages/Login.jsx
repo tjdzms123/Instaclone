@@ -24,18 +24,16 @@ function Login() {
           <StLoginBox>
             <StInputBox>
               <StFont />
-              <StLoginFormBox>
-                <StLoginForm>
-                  <StLoginInput placeholder="전화번호, 사용자 이름 또는 이메일" />
-                  <StLoginInput placeholder="비밀번호" />
-                  <button>로그인</button>
-                  <br />
-                  <span>또는</span>
-                  <button>Facebook으로 로그인</button>
-                  <br />
-                  <button>비밀번호를 잊으셨나요?</button>
-                </StLoginForm>
-              </StLoginFormBox>
+              <StLoginForm>
+                <StLoginInput placeholder="전화번호, 사용자 이름 또는 이메일" />
+                <StLoginInput placeholder="비밀번호" />
+                <button>로그인</button>
+                <br />
+                <span>또는</span>
+                <button>Facebook으로 로그인</button>
+                <br />
+                <button>비밀번호를 잊으셨나요?</button>
+              </StLoginForm>
             </StInputBox>
             <div>
               계정이 없으신가요? <button>가입하기</button>
